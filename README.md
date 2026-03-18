@@ -194,7 +194,7 @@ H1₂: Fatality outcome is associated with the activity being performed.
 Test Method:  
 Chi-square test of independence.
 
-Result: χ² = 452.96, df = 5, p < 0.001 - H1₂ supported
+Result: χ² = 452.96, df = 5, p < 0.001 - H1₂ supported.
 
 ### Hypothesis 3 — Fatal vs Non-Fatal Proportion
 
@@ -205,7 +205,7 @@ H1₃: The proportion of non-fatal shark attacks is greater than the proportion 
 Test Method:  
 Proportion comparison using descriptive statistics.
 
-Result: Non-fatal incidents greatly exceed fatal incidents - H1₃ supported
+Result: Non-fatal incidents greatly exceed fatal incidents - H1₃ supported.
 
 ### Hypothesis 4 — Temporal Trends
 
