@@ -303,7 +303,7 @@ The dashboard allows users to interactively explore global shark attack trends t
 The interactive Power BI dashboard can be viewed here:
 
 **View the live dashboard:**  
-[Open Power BI Dashboard](https://app.powerbi.com/links/-aOfXGe-M3?ctid=c233c072-135b-431d-af59-35e05babf941&pbi_source=linkShare)
+[Open Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjY2NmVlNzYtYjNmNS00NzFiLTgxYjItYTQzN2U5NTA5YjBkIiwidCI6ImMyMzNjMDcyLTEzNWItNDMxZC1hZjU5LTM1ZTA1YmFiZjk0MSIsImMiOjh9)
 
 ---
 
