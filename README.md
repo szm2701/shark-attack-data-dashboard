@@ -25,7 +25,7 @@ This project analyses global shark attack incidents using Python and Power BI to
 - [Research Questions](#research-questions)
 - [Project Workflow](#project-workflow)
 - [Methodology](#methodology)
-- [Hypothesis Testing](#hypothesis-testing)
+- [Hypotheses Testing and Analytical Findings](#hypotheses-testing-and-analytical-findings)
 - [Development Roadmap](#development-roadmap)
 - [Visualisations Preview](#visualisations-preview)
 - [Live Dashboard](#live-dashboard)
@@ -166,11 +166,13 @@ The project followed a structured data analytics workflow consisting of the foll
 
 ---
 
-## Hypothesis Testing
+## Hypotheses Testing and Analytical Findings
 
 The following hypotheses were developed to examine key patterns in the shark attack dataset. These hypotheses focus on geographic distribution, the relationship between human activity and fatality outcomes, overall fatality proportions, and temporal trends in recorded incidents.
 
 Together, these hypotheses allow the analysis to move beyond descriptive exploration and evaluate whether the observed patterns reflect meaningful relationships within the data.
+
+Where appropriate, statistical tests were applied, while other hypotheses were evaluated through descriptive analysis and visualisation.
 
 ### Hypothesis 1 — Country Distribution
 
@@ -181,7 +183,7 @@ H1₁: Shark attack frequency varies significantly between countries.
 Test Method:  
 Descriptive geographic analysis using country-level incident frequencies and visualisation.
 
-Result: Incidents concentrated in USA, Australia, and South Africa - H1₁ supported
+Result: Shark attack incidents are concentrated in the United States, Australia, and South Africa, supporting H1₁.
 
 ### Hypothesis 2 — Activity and Fatality Outcome
 
@@ -214,7 +216,7 @@ H1₄: The number of recorded shark attack incidents has increased over time.
 Test Method:
 Trend analysis using descriptive statistics and visual inspection.
 
-Result: Recorded incidents increase in recent decades - H1₄ supported
+Result: Recorded shark attack incidents show an increasing trend in recent decades, supporting H1₄.
 
 ---
 
@@ -271,12 +273,12 @@ Example visualisations generated during the analysis.
 
 ## Live Dashboard
 
+The dashboard allows users to interactively explore global shark attack trends through filtering by year, country, activity type, shark species, and fatality outcome.
+
 The interactive Power BI dashboard can be viewed here:
 
 **View the live dashboard:**  
 [Open Power BI Dashboard](https://app.powerbi.com/links/-aOfXGe-M3?ctid=c233c072-135b-431d-af59-35e05babf941&pbi_source=linkShare)
-
-The dashboard allows users to explore shark attack incidents through interactive filters including year, country, activity type, shark species, and fatality outcome.
 
 ---
 
@@ -313,7 +315,7 @@ The analysis revealed several key insights:
 - Shark attacks are concentrated in coastal regions with high levels of ocean recreation, particularly in the United States, Australia, and South Africa.  
 - Swimming and surfing are among the activities most commonly associated with shark attack incidents.  
 - The majority of recorded shark attacks are non-fatal, indicating that while incidents occur, fatal outcomes are comparatively rare.
-- Statistical testing identified a relationship between activity type and fatality outcome.  
+- Chi-square testing identified a statistically significant relationship between activity type and fatality outcome. 
 
 Overall, the findings highlight that shark–human interactions are influenced by patterns of human activity and coastal recreation, and that while incidents occur globally, fatal outcomes remain relatively rare. These insights emphasise the importance of interpreting shark attack data carefully and avoiding exaggerated perceptions of risk.
 
@@ -335,7 +337,7 @@ Several limitations affect the analysis:
 - Many incidents include unidentified shark species  
 - Historical reporting bias in older records  
 - Lack of environmental variables influencing shark behaviour  
-- Predictive modelling was not implemented in this project. Although forecasting techniques could potentially be applied to shark attack incident data, the dataset contains irregular reporting patterns, missing values, and historical inconsistencies that may limit the reliability of predictive models. The primary aim of this project was therefore to focus on descriptive analysis, hypothesis testing, and dashboard-based exploration rather than predictive modelling.
+- Predictive modelling was not implemented in this project. Although forecasting techniques could potentially be applied to shark attack incident data, irregular reporting patterns, missing values, and historical inconsistencies in the dataset may limit the reliability of predictive models. The project therefore focuses on descriptive analysis, hypothesis testing, and dashboard-based exploration.
 
 These limitations should be considered when interpreting the results.
 
