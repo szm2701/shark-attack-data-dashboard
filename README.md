@@ -21,6 +21,7 @@ This project analyses global shark attack incidents using Python and Power BI to
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+- [Project Highlights](#project-highlights)
 - [Project Motivation](#project-motivation)
 - [Dataset](#dataset)
 - [Project Objectives](#project-objectives)
@@ -57,6 +58,22 @@ Using historical incident records, the analysis explores trends in shark encount
 The results are presented through an interactive Power BI dashboard that allows users to explore shark attack data dynamically.
 
 [Back to top](#top)
+
+---
+
+## Project Highlights
+
+• Analysed **6,800+ global shark attack records** to identify patterns in shark–human interactions.
+
+• Applied **data cleaning and feature engineering** techniques using Python and Pandas.
+
+• Conducted **statistical hypothesis testing (Chi-square test)** to evaluate the relationship between human activity and fatality outcomes.
+
+• Built an **interactive Power BI dashboard** enabling users to explore shark attack trends by time, location, activity type, and species.
+
+• Addressed **ethical considerations and reporting bias** when analysing wildlife incident data.
+
+• Demonstrated the **end-to-end data analytics workflow**, from raw data preparation to interactive visualisation.
 
 ---
 
