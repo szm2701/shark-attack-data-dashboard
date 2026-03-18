@@ -1,5 +1,7 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+<a name="top"></a>
+
 # Global Shark–Human Interaction Analysis
 
 ![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
@@ -54,6 +56,8 @@ Using historical incident records, the analysis explores trends in shark encount
 
 The results are presented through an interactive Power BI dashboard that allows users to explore shark attack data dynamically.
 
+[Back to top](#top)
+
 ---
 
 ## Project Motivation
@@ -79,6 +83,8 @@ The dataset contains historical records of shark attack incidents worldwide and 
 - Fatal or non-fatal outcome  
 
 Prior to analysis, the dataset was cleaned and processed to address missing values, inconsistent formatting, and categorical standardisation.
+
+[Back to top](#top)
 
 ---
 
@@ -163,6 +169,8 @@ The project followed a structured data analytics workflow consisting of the foll
 ### Dashboard Development
 
 - Creation of an interactive Power BI dashboard to visualise key insights  
+
+[Back to top](#top)
 
 ---
 
@@ -295,6 +303,19 @@ The dashboard includes visualisations for:
 - Shark species involved in incidents  
 - Activity type vs fatality outcome  
 
+### Dashboard Features
+
+The Power BI dashboard includes several interactive features that allow users to explore the dataset dynamically:
+
+- Year range filtering
+- Country selection
+- Activity type filtering
+- Shark species exploration
+- Fatal vs non-fatal incident comparison
+- Interactive geographic visualisation
+
+These filters allow users to investigate how shark–human interaction patterns vary across time, location, and activity.
+
 ### Dashboard Wireframe
 
 Before building the final dashboard, a wireframe was created to plan the layout and placement of visualisations.
@@ -304,6 +325,8 @@ Before building the final dashboard, a wireframe was created to plan the layout 
 ### Dashboard Preview
 
 ![Dashboard](images/dashboard_final.png)
+
+[Back to top](#top)
 
 ---
 
@@ -318,6 +341,8 @@ The analysis revealed several key insights:
 - Chi-square testing identified a statistically significant relationship between activity type and fatality outcome. 
 
 Overall, the findings highlight that shark–human interactions are influenced by patterns of human activity and coastal recreation, and that while incidents occur globally, fatal outcomes remain relatively rare. These insights emphasise the importance of interpreting shark attack data carefully and avoiding exaggerated perceptions of risk.
+
+[Back to top](#top)
 
 ---
 
@@ -467,6 +492,19 @@ shark-attack-data-dashboard/
 
 5. Run the notebook to reproduce the analysis.
 
+### Reproducibility
+
+All analysis steps are fully reproducible using the included Jupyter notebook.
+
+Running the notebook will:
+
+- Load the raw dataset
+- Perform data cleaning and preprocessing
+- Generate analytical visualisations
+- Conduct statistical hypothesis testing
+
+The processed dataset used by the dashboard is also included in the repository.
+
 ---
 
 ## Key Project Outputs
@@ -514,5 +552,7 @@ Neff, C., & Hueter, R. (2013). Science, policy, and the public discourse of shar
 
 Kumar, G. (2023). *Shark Attacks Dataset*. Kaggle.  
 https://www.kaggle.com/datasets/gauravkumar2525/shark-attacks
+
+[Back to top](#top)
 
 ---
