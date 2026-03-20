@@ -536,6 +536,10 @@ The main outputs of this project include:
 
 `data/processed/shark_attacks_cleaned.csv`
 
+**Visualisations**
+
+`outputs/figures/`
+
 **Power BI dashboard**
 
 `dashboard/shark-dashboard.pbix`
